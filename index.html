@@ -47,8 +47,8 @@ window.requestAnimFrame = ( function() {
 var canvas = document.getElementById( 'canvas' ),
 		ctx = canvas.getContext( '2d' ),
 		// full screen dimensions
-		cw = window.innerWidth,
-		ch = window.innerHeight,
+		cw = window.resize,
+		ch = window.resize,
 		// firework collection
 		fireworks = [],
 		// particle collection
